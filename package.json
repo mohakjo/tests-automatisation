@@ -1,0 +1,16 @@
+{
+  "name": "tests-automatisations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculatrice.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
