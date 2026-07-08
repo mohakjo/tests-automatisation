@@ -4,13 +4,21 @@
   "description": "",
   "main": "calculatrice.js",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "test:e2e": "playwright test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/e2e/"
+    ]
+  },
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
     "jest": "^30.4.2"
   }
 }
